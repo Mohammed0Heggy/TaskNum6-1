@@ -1,0 +1,292 @@
+* {
+  padding: 0;
+}
+
+.nav-bar {
+  display: flex;
+  height: 70px;
+  width: 80%;
+  justify-content: end;
+  margin-left: 100px;
+  align-items: center;
+}
+
+.nav-bar .logo {
+  font-size: 20px;
+  font-size: x-large;
+  flex: 1;
+  color: #bbbbbb;
+  font-family: cursive;
+
+}
+
+.nav-bar img {
+  width: 45px;
+}
+
+.first-sec {
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 100px auto 50px;
+}
+
+.half-sec {
+  width: 36%;
+}
+
+.first-sec p {
+  font-size: 56px;
+  font-weight: bold;
+  color: #227539;
+}
+
+.first-sec img {
+  height: 50vh;
+}
+
+.btns {
+  display: flex;
+  margin-top: 50px;
+  gap: 40px;
+}
+
+.f-btn {
+  text-decoration: none;
+  color: #fff;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #227539;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.s-btn {
+  text-decoration: none;
+  color: #000;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #c2c2c2;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.second-sec {
+  display: flex;
+  background-color: #c2c2c2;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: -2;
+  margin-bottom: 200px;
+}
+
+.second-sec img {
+  width: 45%;
+  margin-bottom: 40px;
+
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: #64d99c;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 320px;
+}
+
+.col {
+  content: "";
+  height: 95vh;
+  width: 13%;
+  background-color: #227539;
+  color: #227539;
+  position: absolute;
+  margin-right: 210px;
+  margin-top: 20px;
+  z-index: -1;
+}
+
+.third-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-sec .header {
+  font-size: 60px;
+  color: #227539;
+  font-weight: bold;
+
+}
+
+.f-p {
+  margin-top: -40px;
+  width: 50%;
+  text-align: center;
+}
+
+.cards-container {
+  margin-top: 30px;
+  width: 88%;
+  display: flex;
+  justify-content: space-around !important;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 400px;
+  border-radius: 5px;
+  background-color: #c2c2c2;
+  justify-content: center;
+  align-items: center;
+}
+
+.card p {
+  width: 80%;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.card img {
+  height: 150px;
+  width: 150px;
+  border: #fff 5px solid;
+  border-radius: 50%;
+}
+
+.card h4 {
+  color: #227539;
+  margin-bottom: 0;
+}
+
+.fourth-sec {
+  width: 70%;
+  margin: 150px auto 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fourth-sec img {
+  width: 60%;
+  margin-left: 10%;
+}
+
+.fourth-sec .img-div {
+  position: relative;
+
+}
+
+.fourth-sec .img-div::before {
+  display: block;
+  content: ".";
+  width: 30px;
+  height: 220px;
+  background-color: #227539;
+  color: #227539;
+  position: absolute;
+  left: 40px;
+  top: 30px;
+}
+
+.second-half {
+  display: flex;
+  flex-direction: column;
+  background-color: #c2c2c2;
+  width: 70%;
+  border-radius: 10px;
+  height: 420px;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.second-half p {
+  color: #227539;
+  font-size: 60px;
+  padding: 0 20px;
+  margin-bottom: 0;
+}
+
+.second-half a {
+  display: block;
+  background-color: #227539;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  width: 40%;
+  text-align: center;
+  margin: 20px 0 0px 50px;
+  border-radius: 5px;
+}
+
+.second-half::before {
+  display: block;
+  content: ".";
+  width: 30px;
+  height: 220px;
+  background-color: #227539;
+  color: #227539;
+  position: absolute;
+  right: 400px;
+  top: 30px;
+}
+
+.fifth-sec {
+  display: flex;
+  flex-direction: column;
+  background-color: #c2c2c2;
+  height: 90vh;
+  align-items: center;
+}
+
+.fifth-sec p {
+  font-size: 58px;
+  color: #227539;
+  font-weight: bold;
+}
+
+.inputs-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+  height: 52%;
+  width: 60%;
+  background-color: #fff;
+}
+
+.fifth-sec input {
+  padding: 10px;
+  background-color: #c2c2c2;
+  border-radius: 5px;
+  border: none;
+}
+
+.fifth-sec textarea {
+  background-color: #c2c2c2;
+  min-height: 150px;
+  max-width: 885px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+
+}
+
+.fifth-sec button {
+  width: 160px;
+  height: 40px;
+  background-color: #227539;
+  color: #fff;
+  border-radius: 5px;
+  font-size: large;
+  align-self: center;
+  border: none;
+}
